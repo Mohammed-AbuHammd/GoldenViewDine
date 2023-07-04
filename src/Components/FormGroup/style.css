@@ -1,0 +1,58 @@
+.formGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formGroup form .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.formGroup form .box .input_group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.formGroup form .box .input_group i {
+  font-size: 30px;
+  color: rgb(160, 128, 64);
+}
+.formGroup form .box .input_group label {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+.formGroup form .box .input_group input {
+  width: 410px;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgb(255, 252, 204);
+  border-radius: 0;
+  color: #fff;
+  text-indent: 20px;
+  outline: 0;
+}
+.formGroup form .box .input_group input:focus {
+  border: 1px solid rgb(160, 128, 64);
+}
+.formGroup form .box .input_group ::-moz-placeholder {
+  padding: 20px;
+}
+.formGroup form .box .input_group ::placeholder {
+  padding: 20px;
+}
+.formGroup form .box .btnForm input {
+  width: 200px;
+  height: 55px;
+  background-color: transparent;
+  color: #fff;
+  outline: 0;
+  border: 1px solid rgb(255, 255, 255);
+  transition: 0.3s linear;
+  font-size: 20px;
+}
+.formGroup form .box .btnForm input:hover {
+  background-color: rgb(160, 128, 64);
+}/*# sourceMappingURL=style.css.map */

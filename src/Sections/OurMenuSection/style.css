@@ -1,0 +1,104 @@
+.menuSection {
+  position: relative;
+  padding: 50px 0;
+  width: 100%;
+  background-image: url(../../assets/Images/secondayBG.gif);
+  margin-top: 0px;
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items {
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.midContent {
+  overflow: hidden;
+  background-image: url(../../assets/Images/secondayBG.gif);
+  height: 330px;
+  width: 100%;
+  position: relative;
+}
+.midContent .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.midContent .box .left,
+.midContent .box .right {
+  width: 20%;
+  margin-top: 20px;
+}
+.midContent .box .right {
+  margin-left: -50px;
+}
+.midContent .box .left {
+  margin-left: -75px;
+}
+.midContent .box .content {
+  margin-left: 25px;
+  text-align: center;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+.midContent .box .content .button {
+  margin-top: -60px;
+}
+
+.cooking_ingredients {
+  background-image: url("../../assets/Images/secondayBG.gif");
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cooking_ingredients .box {
+  display: flex;
+  justify-content: space-between;
+}
+.cooking_ingredients .boxContent {
+  margin-top: 25px;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.statistics {
+  position: relative;
+  background-image: url("../../assets/Images/secondayBG.gif");
+  width: 100%;
+  height: 190px;
+}
+.statistics .box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.reviewsBox {
+  width: 100%;
+  height: 600px;
+  background-image: url(../../assets/Images/secondayBG.gif);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.reviewsBox .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  overflow: hidden;
+}/*# sourceMappingURL=style.css.map */

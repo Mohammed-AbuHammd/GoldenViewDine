@@ -1,0 +1,15 @@
+.about {
+  background-image: url(../../assets/Images/secondayBG.gif);
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .boxAbout {
+  display: flex;
+  justify-content: space-between;
+}
+.about .boxAbout .left {
+  text-align: left;
+}/*# sourceMappingURL=style.css.map */

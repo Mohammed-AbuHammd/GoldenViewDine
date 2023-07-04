@@ -1,0 +1,14 @@
+.special {
+  position: relative;
+  width: 100%;
+  height: 725px;
+  background-image: url("../../assets/Images/secondayBG.gif");
+}
+.special .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.special .cards p {
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */

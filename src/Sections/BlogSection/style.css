@@ -1,0 +1,44 @@
+.blog {
+  width: 100%;
+  padding: 50px 0;
+  background-image: url(../../assets/Images/secondayBG.gif);
+}
+.blog .cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+.blog .cards .card {
+  width: 410px;
+  height: 525px;
+  border: 0;
+}
+.blog .cards .card:nth-child(even) {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.blog .cards .card:nth-child(even) .content {
+  margin-bottom: -15px;
+  margin-top: 0px;
+}
+.blog .cards .card:nth-child(even) .btnBox {
+  position: absolute;
+  top: 25%;
+  margin-left: -250px;
+}
+.blog .cards .card .content {
+  padding: 20px;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  gap: 20px;
+  height: 225px;
+  background-color: rgba(16, 20, 24, 0.7);
+  width: 100%;
+  margin-top: -15px;
+}
+.blog .cards .card .content p {
+  width: 75%;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

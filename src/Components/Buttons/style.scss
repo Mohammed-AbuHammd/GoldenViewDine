@@ -1,0 +1,36 @@
+.btn {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fffccc;
+    width: 215px;
+    height: 55px;
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.3s linear;
+
+    &:hover {
+        background-color:
+            #A08040;
+        color: #fff;
+    }
+}
+
+.noneBorder {
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #A08040;
+    width: 125px;
+    height: 35px;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.3s linear;
+
+    &:hover {
+        background-color:
+            #A08040;
+        color: #fff;
+    }
+}

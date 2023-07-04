@@ -1,0 +1,16 @@
+.cardStatistics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  gap: 20px;
+}
+.cardStatistics p {
+  color: #FFCE6D;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+.cardStatistics h4 {
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */

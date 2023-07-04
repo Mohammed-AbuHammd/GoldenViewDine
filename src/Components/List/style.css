@@ -1,0 +1,8 @@
+.listItems {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.listItems li {
+  text-align: left;
+}/*# sourceMappingURL=style.css.map */

@@ -12,4 +12,10 @@
   color: white;
   font-size: 32px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .overlay {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */

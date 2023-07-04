@@ -81,3 +81,39 @@ a {
     height: 72px;
 }
 
+@media (max-width:767px) {
+
+    .navbar {
+        background-color: #000;
+        width: 208px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 250px;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    .menu{
+        margin-top: 0;
+    }
+
+    .brand {
+        margin-top: 0;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .context {
+        height: 25%;
+        width: 100%;
+    }
+
+
+
+
+
+}

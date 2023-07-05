@@ -1,0 +1,194 @@
+.ourMenu {
+    width: 100%;
+    background-image: url(../../../public/assets/Images/secondayBG.gif);
+    padding: 50px 0 0 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .cards {
+        margin-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+
+    }
+
+    .boxContent1 {
+        position: relative;
+        height: 330px;
+        width: 100%;
+
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .leftImg,
+        .rightImg {
+            width: 25%;
+            margin-top: 40px;
+        }
+
+        .leftImg {
+            margin-right: 70px;
+        }
+
+        .rightImg {
+            margin-right: 140px;
+        }
+
+        .content {
+            width: 50%;
+        }
+    }
+
+    @media (max-width: 1199px) {
+        .boxContent1 {
+            position: relative;
+            height: 380px;
+            width: 100%;
+
+            .box {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .leftImg,
+            .rightImg {
+                display: none;
+            }
+
+            .content {
+                width: 100%;
+            }
+        }
+    }
+
+    .boxContent2 {
+
+        .box2 {
+            display: flex;
+            justify-content: space-around;
+            gap: 150px;
+            align-items: center;
+
+            .content {
+                text-align: left;
+            }
+        }
+    }
+
+    @media (max-width:991px) {
+        .boxContent2 {
+            padding: 40px 0;
+
+            .box2 {
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                align-items: center;
+                gap: 45px;
+
+                .content {
+                    text-align: left;
+                }
+
+                .image {
+                    .image {
+                        img {
+                            width: 340px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .statistics {
+        height: 190px;
+        width: 100%;
+        position: relative;
+
+        .cards {
+            height: 190px;
+            margin-top: 60px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .card {
+                display: flex;
+                justify-content: space-between;
+                gap: 25px;
+                align-items: center;
+
+
+                .box {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+
+                    .count {
+                        color: rgba(255, 206, 109, 1);
+                        font-size: 45px;
+                    }
+                }
+
+
+            }
+        }
+
+    }
+
+    @media (max-width:767px) {
+        .statistics {
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .cards {
+                margin-top: -150px;
+                justify-content: flex-start;
+                align-items: center;
+
+                .card {
+                    display: flex;
+                    margin-left: 30px;
+                    justify-content: flex-start;
+                    gap: 25px;
+                    align-items: center;
+
+
+                    .box {
+
+                        .count {
+                            font-size: 35px;
+                        }
+                    }
+
+
+                }
+            }
+
+        }
+    }
+
+    @media (min-width:768px)and (max-width:1199px) {
+        .statistics {
+            height: 360px;
+
+            .cards {
+                margin-top: -50px;
+            }
+        }
+    }
+
+}

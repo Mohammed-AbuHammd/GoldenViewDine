@@ -1,0 +1,38 @@
+.AboutSection {
+    width:100%;
+    padding: 50px 0;
+    background-image: url(/public/assets/Images/secondayBG.gif);
+    
+    .boxContent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .leftContent {
+            text-align: left;
+            text-transform: capitalize;
+            width: 650px;
+        }
+    }
+    @media (max-width: 991px) {
+        .boxContent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+            .leftContent {
+                width: 85%;
+                margin: 0 auto;
+                text-transform: capitalize;
+            }
+            .rightContent {
+                .image{
+                    img{
+                        width: 240px;
+                    }
+                }
+            }
+        }   
+    }
+
+}

@@ -1,0 +1,90 @@
+.card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 384px;
+  height: 455px;
+  background-color: rgba(160, 128, 64, 0.3);
+  margin: 50px 0;
+  border: 2px dotted rgba(160, 128, 64, 0.3);
+}
+.card1 .t__p2 {
+  width: 220px;
+  text-align: justify;
+  text-transform: capitalize;
+}
+
+@media (max-width: 767px) {
+  .card1 {
+    width: 330px;
+  }
+}
+.card2 {
+  display: flex;
+  justify-content: space-between;
+  width: 490px;
+  height: 64px;
+}
+.card2 .boxItemContent {
+  color: #fff;
+  display: flex;
+  gap: 10px;
+}
+.card2 .boxItemContent .content {
+  margin-top: -15px;
+  text-align: justify;
+}
+.card2 .boxItemContent .content h5 {
+  font-weight: 700;
+  font-size: 16px;
+}
+.card2 .boxItemContent .content p {
+  font-weight: 400;
+  color: #fff;
+  margin-top: -25px;
+  font-size: 14px;
+}
+@media (max-width: 767px) {
+  .card2 .boxItemContent {
+    color: #fff;
+    display: flex;
+    gap: 10px;
+  }
+  .card2 .boxItemContent .content {
+    margin-top: -15px;
+  }
+  .card2 .boxItemContent .content h5 {
+    font-size: 14px;
+  }
+  .card2 .boxItemContent .content p {
+    font-size: 12px;
+    margin-top: -18px;
+  }
+}
+.card2 .boxPrice {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -10px;
+  color: rgb(255, 206, 109);
+  position: relative;
+}
+.card2 .boxPrice::after {
+  content: ".";
+  display: block;
+  width: 110px;
+  height: 1px;
+  background-color: rgb(255, 206, 109);
+  position: absolute;
+  top: 55%;
+  right: 150%;
+}
+@media (max-width: 767px) {
+  .card2 .boxPrice {
+    font-size: 15px;
+    margin-top: 0;
+  }
+  .card2 .boxPrice::after {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

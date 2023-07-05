@@ -1,0 +1,31 @@
+.AboutSection {
+  width: 100%;
+  padding: 50px 0;
+  background-image: url(/public/assets/Images/secondayBG.gif);
+}
+.AboutSection .boxContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.AboutSection .boxContent .leftContent {
+  text-align: left;
+  text-transform: capitalize;
+  width: 650px;
+}
+@media (max-width: 991px) {
+  .AboutSection .boxContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .AboutSection .boxContent .leftContent {
+    width: 85%;
+    margin: 0 auto;
+    text-transform: capitalize;
+  }
+  .AboutSection .boxContent .rightContent .image img {
+    width: 240px;
+  }
+}/*# sourceMappingURL=style.css.map */

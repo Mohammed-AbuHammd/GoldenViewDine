@@ -22,7 +22,7 @@ span {
 @media (max-width: 767px) {
   .t__mainH1 {
     font-size: 28px;
-    width: 260px;
+    width: 280px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -33,30 +33,38 @@ span {
 }
 .t__h1 {
   font-size: 45px;
+  color: #fff;
 }
 
 .t__h2 {
-  font-size: 36px;
+  font-size: 30px;
+  color: #fff;
+  line-height: 35.19px;
 }
 
 .t__h3 {
-  font-size: 28px;
+  font-size: 24px;
+  color: #fff;
 }
 
 .t__h4 {
   font-size: 20px;
+  color: #fff;
 }
 
 .t__h5 {
-  font-size: 18px;
+  font-size: 16px;
+  color: #fff;
 }
 
 .t__h6 {
   font-size: 14px;
+  color: #fff;
 }
 
 .t__p1 {
   font-size: 18px;
+  color: #fff;
 }
 
 @media (max-width: 767px) {
@@ -66,9 +74,24 @@ span {
   }
 }
 .t__p2 {
-  font-size: 16px;
+  font-size: 14px;
+  color: #fff;
+  width: 440px;
+  line-height: 21.74px;
+  font-weight: 400;
+  letter-spacing: 13%;
 }
 
+@media (max-width: 767px) {
+  .t__p2 {
+    font-size: 14px;
+    color: #fff;
+    width: auto;
+    line-height: 21.74px;
+    font-weight: 400;
+    letter-spacing: 13%;
+  }
+}
 .t__span {
   font-size: 12px;
 }

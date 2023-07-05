@@ -8,8 +8,8 @@ import "./style.css";
 class HeroSection extends Component {
   render() {
     const links = [
-      { url: "/", text: "Home" },
-      { url: "/about", text: "About Us" },
+      { url: "../HeroSection", text: "Home" },
+      { url: "#About", text: "About Us" },
       { url: "/services", text: "Spacial" },
       { url: "/contact", text: "Menu" },
       { url: "", text: "Blogs" },

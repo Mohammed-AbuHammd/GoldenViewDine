@@ -8,15 +8,15 @@ import "./style.css";
 class HeroSection extends Component {
   render() {
     const links = [
-      { url: "../HeroSection", text: "Home" },
+      { url: "#Hero", text: "Home" },
       { url: "#About", text: "About Us" },
-      { url: "/services", text: "Spacial" },
-      { url: "/contact", text: "Menu" },
-      { url: "", text: "Blogs" },
+      { url: "#Spacial", text: "Spacial" },
+      { url: "#Menu", text: "Menu" },
+      { url: "#Blogs", text: "Blogs" },
     ]
     return (
       <>
-        <section className="heroSection">
+        <section className="heroSection" id="Hero">
           <Overlay>
             <div className="mainHero">
             <div className="navbar">

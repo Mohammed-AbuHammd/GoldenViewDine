@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .card1 {
   display: flex;
   flex-direction: column;
@@ -87,4 +91,81 @@
   .card2 .boxPrice::after {
     display: none;
   }
+}
+
+.card3 {
+  display: flex;
+  flex-direction: column;
+  width: 411px;
+  height: 526px;
+}
+.card3:nth-child(even) {
+  flex-direction: column-reverse;
+}
+.card3 .img {
+  width: 411px;
+  height: 299px;
+  overflow: hidden;
+}
+.card3 .img .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card3 .content {
+  width: 100%;
+  height: 227px;
+  padding: 0 25px;
+  text-align: left;
+  background-color: rgba(16, 20, 24, 0.7);
+}
+.card3 .content .t__p2 {
+  width: 300px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 991px) {
+  .card3 {
+    display: flex;
+    flex-direction: column;
+    width: 311px;
+    height: 436px;
+    margin-bottom: 30px;
+  }
+  .card3 .img {
+    width: 311px;
+    height: 209px;
+  }
+}
+.card4 {
+  width: 630px;
+  height: 350px;
+  display: flex;
+  align-items: flex-start;
+  padding: 50px;
+  flex-direction: column;
+  background-color: rgba(16, 20, 24, 0.7);
+}
+.card4 .main {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.card4 .main .group {
+  display: flex;
+  flex-direction: column;
+}
+.card4 .main .group .imgStart {
+  display: flex;
+  gap: 5px;
+  margin-top: -20px;
+}
+.card4 .content {
+  text-align: left;
+  text-transform: capitalize;
+}
+.card4 .content .t__p2 {
+  width: 400px;
+  line-height: 18.75px;
 }/*# sourceMappingURL=style.css.map */

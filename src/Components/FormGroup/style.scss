@@ -1,0 +1,120 @@
+.formGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    form {
+        .box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+
+            .input_group {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 10px;
+
+                .lab {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    i {
+                        font-size: 30px;
+                        color: rgba(160, 128, 64, 1);
+                    }
+
+                    label {
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #fff
+                    }
+                }
+
+                input {
+                    width: 410px;
+                    height: 55px;
+                    background-color: rgba(0, 0, 0, 0.25);
+                    border: 1px solid rgb(255, 252, 204);
+                    border-radius: 0;
+                    color: #fff;
+                    text-indent: 20px;
+                    outline: 0;
+
+                    &:focus {
+                        border: 1px solid rgba(160, 128, 64, 1);
+                    }
+
+                }
+
+                ::placeholder {
+                    padding: 20px;
+                }
+            }
+
+            .btnForm {
+                margin: 25px 0;
+                input {
+                    width: 200px;
+                    height: 55px;
+                    background-color: transparent;
+                    color: #fff;
+                    outline: 0;
+                    border: 1px solid rgba(255, 255, 255, 1);
+                    transition: 0.3s linear;
+                    font-size: 20px;
+
+                    &:hover {
+                        background-color: rgba(160, 128, 64, 1);
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 867px) {
+    .formGroup {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        form {
+            .box {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 10px;
+    
+                .input_group {
+            
+    
+                    .lab {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                       
+                    }
+    
+                    input {
+                        width: 300px;
+                        height: 45px;
+    
+                    }
+    
+                }
+    
+                .btnForm {
+                    input {
+                        width: 160px;
+                        height: 50px;
+
+                    }
+                }
+            }
+        }
+    }
+}

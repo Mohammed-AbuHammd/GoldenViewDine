@@ -1,0 +1,95 @@
+.formGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formGroup form .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.formGroup form .box .input_group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.formGroup form .box .input_group .lab {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.formGroup form .box .input_group .lab i {
+  font-size: 30px;
+  color: rgb(160, 128, 64);
+}
+.formGroup form .box .input_group .lab label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.formGroup form .box .input_group input {
+  width: 410px;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgb(255, 252, 204);
+  border-radius: 0;
+  color: #fff;
+  text-indent: 20px;
+  outline: 0;
+}
+.formGroup form .box .input_group input:focus {
+  border: 1px solid rgb(160, 128, 64);
+}
+.formGroup form .box .input_group ::-moz-placeholder {
+  padding: 20px;
+}
+.formGroup form .box .input_group ::placeholder {
+  padding: 20px;
+}
+.formGroup form .box .btnForm {
+  margin: 25px 0;
+}
+.formGroup form .box .btnForm input {
+  width: 200px;
+  height: 55px;
+  background-color: transparent;
+  color: #fff;
+  outline: 0;
+  border: 1px solid rgb(255, 255, 255);
+  transition: 0.3s linear;
+  font-size: 20px;
+}
+.formGroup form .box .btnForm input:hover {
+  background-color: rgb(160, 128, 64);
+}
+
+@media (max-width: 867px) {
+  .formGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .formGroup form .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .formGroup form .box .input_group .lab {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .formGroup form .box .input_group input {
+    width: 300px;
+    height: 45px;
+  }
+  .formGroup form .box .btnForm input {
+    width: 160px;
+    height: 50px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,231 @@
+a {
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background-image: url(../../../public/assets/Images/secondayBG.gif);
+  position: relative;
+}
+.footer .boxFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer .boxFooter .left {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+.footer .boxFooter .left .logoDesc {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.footer .boxFooter .left .description .t__p2 {
+  width: 200px;
+  text-transform: capitalize;
+  text-align: left;
+}
+.footer .boxFooter .left .socialIcon {
+  margin-left: -25px;
+}
+.footer .boxFooter .left .socialIcon ul {
+  gap: 20px;
+  display: flex;
+}
+.footer .boxFooter .left .socialIcon ul li {
+  width: 35px;
+  height: 35px;
+  background-color: rgba(51, 53, 57, 0.75);
+}
+.footer .boxFooter .left .socialIcon ul li a {
+  color: #fff;
+}
+.footer .boxFooter .left .socialIcon ul li a i {
+  font-size: 18px;
+  margin-top: 0;
+  background-color: rgb(51, 53, 57);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .boxFooter .left .socialIcon i {
+  color: #fff;
+}
+.footer .boxFooter .list1 {
+  margin-top: 25px;
+  font-size: 16px;
+}
+.footer .boxFooter .list1 .t__h4 {
+  text-align: left;
+  margin-left: 20px;
+}
+.footer .boxFooter .list1 ul {
+  list-style: disc;
+  text-align: left;
+}
+.footer .boxFooter .list1 ul li {
+  margin-bottom: 8px;
+}
+.footer .boxFooter .list1 ul li a {
+  color: #fff;
+}
+.footer .boxFooter .list1 ul li a:hover {
+  text-decoration: underline;
+}
+.footer .boxFooter .list2 {
+  margin-top: 25px;
+  font-size: 16px;
+}
+.footer .boxFooter .list2 .t__h4 {
+  text-align: left;
+  margin-left: 30px;
+}
+.footer .boxFooter .list2 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.footer .boxFooter .list2 ul li {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.footer .boxFooter .list2 ul li i {
+  margin-right: 20px;
+  margin-top: -5px;
+  font-size: 20px;
+  color: rgb(160, 128, 64);
+}
+.footer .boxFooter .list2 ul li a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  transition: 0.3s linear;
+}
+.footer .boxFooter .list2 ul li a:hover {
+  color: #909090;
+}
+.footer .boxFooter .list2 ul li a img {
+  margin-top: -5px;
+}
+
+@media (max-width: 867px) {
+  .footer {
+    width: 100%;
+    height: 850px;
+    background-image: url(../../../public/assets/Images/secondayBG.gif);
+    position: relative;
+  }
+  .footer .boxFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .footer .boxFooter .left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer .boxFooter .left .description .t__p2 {
+    width: 280px;
+  }
+  .footer .boxFooter .list1 {
+    margin-top: 25px;
+    font-size: 16px;
+  }
+  .footer .boxFooter .list1 .t__h4 {
+    text-align: left;
+    margin-left: 20px;
+  }
+  .footer .boxFooter .list1 ul {
+    list-style: disc;
+    text-align: left;
+  }
+  .footer .boxFooter .list1 ul li {
+    margin-bottom: 8px;
+  }
+  .footer .boxFooter .list1 ul li a {
+    color: #fff;
+  }
+  .footer .boxFooter .list1 ul li a:hover {
+    text-decoration: underline;
+  }
+  .footer .boxFooter .list2 {
+    margin-top: 25px;
+    font-size: 16px;
+  }
+  .footer .boxFooter .list2 .t__h4 {
+    text-align: left;
+    margin-left: 30px;
+  }
+  .footer .boxFooter .list2 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .footer .boxFooter .list2 ul li {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .footer .boxFooter .list2 ul li i {
+    margin-right: 20px;
+    margin-top: -5px;
+    font-size: 20px;
+    color: rgb(160, 128, 64);
+  }
+  .footer .boxFooter .list2 ul li a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    transition: 0.3s linear;
+  }
+  .footer .boxFooter .list2 ul li a:hover {
+    color: #909090;
+  }
+  .footer .boxFooter .list2 ul li a img {
+    margin-top: -5px;
+  }
+}
+.boxForm {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  background-image: url(../../../public/assets/Images/secondayBG.gif);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .boxForm {
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 300px;
+    background-image: url(../../../public/assets/Images/secondayBG.gif);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.footerContent {
+  color: #fff;
+  width: 100%;
+  height: 75px;
+  background-color: rgb(16, 20, 24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */

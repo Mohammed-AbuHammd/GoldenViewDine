@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Images from "../Images";
 import "./style.css";
 import * as T from "../Typography";
-
+import Buttons from "../../Components/Buttons";
 class Card1 extends Component {
   render() {
     const { imageSrc, header, details } = this.props;
@@ -15,6 +15,7 @@ class Card1 extends Component {
     );
   }
 }
+
 class Card2 extends Component {
   render() {
     const { imageSrc, header, details, price } = this.props;
@@ -22,7 +23,7 @@ class Card2 extends Component {
       <div className="card2">
         <div className="boxItemContent">
           <div className="img">
-          <Images src={imageSrc} />
+            <Images src={imageSrc} />
           </div>
           <div className="content">
             <h5 className="card-header">{header} </h5>
@@ -37,4 +38,48 @@ class Card2 extends Component {
   }
 }
 
-export { Card1, Card2 };
+class Card3 extends Component {
+  render() {
+    const { imageSrc, header, details, btnContent } = this.props;
+    return (
+      <div className="card3">
+        <div className="img">
+          <Images src={imageSrc} />
+        </div>
+
+        <div className="content">
+          <T.H4 className="card-header">{header} </T.H4>
+          <T.body2 className="card-details">{details}</T.body2>
+          <Buttons btnContent={btnContent} borderPosition="bottom" />
+        </div>
+      </div>
+    );
+  }
+}
+class Card4 extends Component {
+  render() {
+    const { imageSrc, name, comment, imgStartUrl } = this.props;
+    return (
+      <div className="card4">
+        <div className="main">
+          <Images src={imageSrc} />
+          <div className="group">
+            <T.H4>{name}</T.H4>
+            <div className="imgStart">
+              <Images src={imgStartUrl} />
+              <Images src={imgStartUrl} />
+              <Images src={imgStartUrl} />
+              <Images src={imgStartUrl} />
+              <Images src={imgStartUrl} />
+            </div>
+          </div>
+        </div>
+        <div className="content">
+          <T.body2 className="card-details">{comment}</T.body2>
+        </div>
+      </div>
+    );
+  }
+}
+
+export { Card1, Card2, Card3, Card4 };

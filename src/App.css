@@ -7,8 +7,8 @@
 body,
 html {
   box-sizing: border-box;
-  font-family: Roboto;
-
+  font-family: Roboto !important;
+  scroll-behavior: smooth;
 }
 
 .App {

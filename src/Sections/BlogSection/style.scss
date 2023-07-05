@@ -1,0 +1,24 @@
+.BlogSection {
+    background: url(../../../public/assets/Images/secondayBG.gif);
+    padding: 50px 0;
+
+    .header {
+        margin-bottom: 50px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    @media (max-width:767px) {
+        .cards {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+
+}

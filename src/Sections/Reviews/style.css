@@ -1,0 +1,13 @@
+.Reviews {
+  padding: 50px 0;
+  background: url(../../../public/assets/Images/secondayBG.gif);
+  overflow: hidden;
+}
+.Reviews .header {
+  margin-bottom: 50px;
+}
+.Reviews .cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}/*# sourceMappingURL=style.css.map */

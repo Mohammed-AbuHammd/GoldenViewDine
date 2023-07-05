@@ -1,12 +1,16 @@
 @font-face {
-  font-family: Roboto-Regular;
-  src: url(./assets/Fonts/Roboto-Regular.ttf);
+  font-family: Roboto;
+  src: url(/public/assets/Fonts/Roboto-Regular.ttf);
 }
-*{
-  padding: 0;
-  margin: 0;
-  font-family:Roboto-Regular;
+
+*,
+body,
+html {
+  box-sizing: border-box;
+  font-family: Roboto;
+
 }
+
 .App {
   text-align: center;
 }
@@ -41,6 +45,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

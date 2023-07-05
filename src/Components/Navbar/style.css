@@ -1,119 +1,144 @@
-ul {
-    list-style: none;
-}
-
 a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
+
 .navbar {
-    background-color: #000;
+    display: flex;
+    align-items: center;
+    height: 76px;
     width: 988px;
-    height: 72px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 0px;
-
-}
-
-
-.menu a {
-    font-size: 18px;
-    color: #ffffcc;
-}
-
-.navbar .brand {
-    height: 100%;
-}
-
-
-
-.menu {
-    height: 72px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -10px;
-    gap: 50px;
-}
-
-.icon {
-    margin-top: 15px;
-    margin-right: 40px;
-
-}
-
-.context {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 277px;
-    background-color: #A08040;
-    font-size: 25px;
-    font-weight: 700;
-
-
-}
-
-.context::after {
-    content: "";
-    height: 2px;
-    width: 25px;
-    background-color: #fff;
-    margin-left: 15px;
-    margin-top: 5px;
-
-}
-
-.context::before {
-    content: "";
-    height: 2px;
-    width: 25px;
-    background-color: #fff;
-    margin-right: 15px;
-    margin-top: 5px;
-
-}
-
-.logo {
-    height: 72px;
-}
-
-@media (max-width:767px) {
-
-    .navbar {
-        background-color: #000;
-        width: 208px;
-        height: 450px;
-        display: flex;
-        flex-direction: column;
-        margin-top: 250px;
-        justify-content: flex-start;
-        align-items: center;
-
-    }
-    .menu{
-        margin-top: 0;
-    }
+    background-color: #000;
 
     .brand {
-        margin-top: 0;
+        width: 76px;
     }
 
     .menu {
-        flex-direction: column;
-        gap: 10px;
+        width: 70%;
+        height: 100%;
+        margin: 0 50px 0 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        margin-top: -15px;
+
+        .icon {
+            margin-top: 15px;
+        }
+
+        .nav_item {
+            .nav_link {
+                color: #FFFCCC;
+                font-size: 18px;
+                transition: 0.3s linear;
+                &:hover{
+                    color: rgba(160, 128, 64, 1);
+                }
+            }
+        }
     }
 
     .context {
-        height: 25%;
-        width: 100%;
+        width: 272px;
+        height: 100%;
+
+        .button {
+            background-color: rgba(160, 128, 64, 1);
+            font-size: 21px;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            color: #fff;
+            transition: 0.3s linear;
+
+            &:hover {
+                background-color: rgba(167, 138, 46, 0.85);
+
+            }
+
+            &::before {
+                content: "";
+                width: 35px;
+                height: 2px;
+                background-color: #fff;
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 25%;
+                transform: translate(-100%, -50%);
+            }
+
+            &::after {
+                content: "";
+                width: 35px;
+                height: 2px;
+                background-color: #fff;
+                display: block;
+                position: absolute;
+                top: 50%;
+                right: 25%;
+                transform: translate(100%, -50%);
+            }
+        }
     }
+}
 
+@media (max-width: 991px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: 420px;
+        width: 188px;
+        margin-top: -50px;
 
+        .brand {
+            width: 76px;
+            height: 76px;
+            margin-bottom: 10px;
+        }
 
+        .menu {
+            width: 100%;
+            height: 300px;
+            margin: 0 50px 0 25px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-left: 10px;
 
+            .nav_item {
+                .nav_link {
+                    color: #FFFCCC;
+                    font-size: 16px;
+                    
+                }
+            }
+        }
 
+        .context {
+            width: 100%;
+            height: 53px;
+            margin-top: 37px;
+            .button {
+                cursor: pointer;
+                font-size: 16px;
+                width: 100%;
+                height: 100%;
+                &::before {
+                    width: 25px;
+                }
+
+                &::after {
+                    width: 25px;
+
+                }
+            }
+        }
+    }
 }

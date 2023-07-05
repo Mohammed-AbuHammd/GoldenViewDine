@@ -1,4 +1,9 @@
 .container {
   width: 80%;
   margin: 0 auto;
+}
+
+.container_fluid {
+  width: 90%;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

@@ -1,26 +1,42 @@
 .heroSection {
+  background-image: url("../../../public/assets/Images/HeroBG.svg");
   width: 100%;
   height: 100vh;
-  background-image: url("../../assets/Images/HeroBG.svg");
+  position: relative;
 }
-.heroSection .box {
+.heroSection .mainHero {
+  margin-top: 130px;
   display: flex;
+  gap: 150px;
   flex-direction: column;
-  gap: 200px;
+  justify-content: space-between;
+}
+.heroSection .mainHero .boxContent {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-.heroSection .box .boxContent .title {
-  margin-bottom: 15px;
-}
-.heroSection .box .boxContent .title h2 {
-  font-size: 45px;
-  margin: auto;
-  width: 350px;
-  color: rgb(255, 252, 204);
-}
-.heroSection .box .boxContent .details p {
-  font-size: 18px;
-  color: #fff;
-  font-weight: 700;
-  width: 100%;
+
+@media (max-width: 991px) {
+  .heroSection {
+    background-image: url("../../../public/assets/Images/HeroBG.svg");
+    width: 100%;
+    height: 115vh;
+    position: relative;
+  }
+  .heroSection .mainHero {
+    margin-top: 130px;
+    display: flex;
+    gap: 75px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .heroSection .mainHero .boxContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */

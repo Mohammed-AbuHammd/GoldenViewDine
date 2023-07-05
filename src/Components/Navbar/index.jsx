@@ -16,9 +16,9 @@ class Navbar extends Component {
               </a>
             </li>
           ))}
-          <img src={this.props.s} alt={this.props.alt} className="icon" />
+          <img src={this.props.srcIcon} alt={this.props.alt} className="icon" />
         </ul>
-        <div className="context">Book Now</div>
+        <div className="context"><button className="button">Book Now</button></div>
         {this.props.children}
       </nav>
     );

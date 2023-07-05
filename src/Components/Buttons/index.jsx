@@ -1,18 +1,16 @@
-import React, { Component } from 'react';
-import './style.css';
-
-class Buttons extends Component {
+import React, { Component } from "react";
+import "./style.css";
+class Button extends Component {
   render() {
-    const { className } = this.props;
-
+    const { borderPosition, btnContent ,size} = this.props;
+    const buttonClassName = borderPosition === "bottom" ? "bottom" : "full";
+    const btnClassName1=size==='lg'? 'lg':'mid';
     return (
-      <div className="box">
-        <button className={`btn ${className ? className : ''}`}>
-          {this.props.btnContent}
-        </button>
+      <div className="button-wrapper">
+        <button className={`btn ${buttonClassName} ${btnClassName1}`}>{btnContent}</button>
       </div>
     );
   }
 }
 
-export default Buttons;
+export default Button;

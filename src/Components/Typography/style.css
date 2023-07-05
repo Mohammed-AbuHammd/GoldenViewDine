@@ -1,0 +1,96 @@
+@font-face {
+  font-family: DancingScript;
+  src: url(/public/assets/Fonts/DancingScript-Regular.ttf);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  font-weight: 700;
+}
+
+.t__mainH1 {
+  color: rgb(255, 252, 204);
+  font-size: 45px;
+  width: 360px;
+}
+
+@media (max-width: 767px) {
+  .t__mainH1 {
+    font-size: 28px;
+    width: 260px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .t__mainH1 {
+    font-size: 35px;
+    width: 280px;
+  }
+}
+.t__h1 {
+  font-size: 45px;
+}
+
+.t__h2 {
+  font-size: 36px;
+}
+
+.t__h3 {
+  font-size: 28px;
+}
+
+.t__h4 {
+  font-size: 20px;
+}
+
+.t__h5 {
+  font-size: 18px;
+}
+
+.t__h6 {
+  font-size: 14px;
+}
+
+.t__p1 {
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .t__p1 {
+    font-size: 15px;
+    width: 300px;
+  }
+}
+.t__p2 {
+  font-size: 16px;
+}
+
+.t__span {
+  font-size: 12px;
+}
+
+.t_hDF {
+  font-size: 36px;
+  font-family: DancingScript;
+  color: rgb(255, 206, 109);
+}
+
+.t_hDC {
+  font-size: 36px;
+  color: rgb(255, 206, 109);
+}
+
+.t_pDF {
+  font-size: 36px;
+  font-family: DancingScript;
+  color: #fff;
+}
+
+.t__label {
+  color: #fff;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
